@@ -1,83 +1,154 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<title>WICS UO</title>
-<meta charset="UTF-8">
-<meta name="description" content="Berlin Portfolio Template">
-<meta name="keywords" content="personal, portfolio">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Favicon -->
-<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-<!-- Stylesheets -->
-<link rel="stylesheet" href="css/bootstrap.css"/>
-<link rel="stylesheet" href="css/reset.css"/>
-<link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/animate.css"/>
-<link rel="stylesheet" href="css/owl.carousel.css"/>
-<link rel="stylesheet" href="css/magnific-popup.css"/>
+  <head>
 
-<!-- Google Web fonts -->
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<!-- Font icons -->
-<link rel="stylesheet" href="icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css"/>
-<link rel="stylesheet" href="icon-fonts/essential-regular-fonts/essential-icons.css"/>
+    <title>Women of Computer Science, University of Oregon</title>
 
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-</head>
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
-<body bgcolor="#000000">
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.min.css" rel="stylesheet">
+    <!-- Icon sheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
 
+      .fa:hover {
+          opacity: 0.7;
+      }
 
-  <div style="background-color:black" align="center">
-      <p><font size="150" color="white" face="Helvetica"> WICS </font></p>
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
 
-      <img src="wics.png">
-      <br><br><br><br>
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
 
-<p> <font size="10" color="grey" face="Helvetica">Meetings : </font></p>
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
 
-       <p> <font size="5" color="white" face="Helvetica">Thursday's at Espresso Roma on 13th Avenue from 6:30 - 7:30pm </font></p>
+      .fa-envelope {
+        background: #ff5700;
+        color: white;
+      }
 
-<p> <font size="10" color="grey" face="Helvetica"> Email : </font></p>
-      <p> <font size="5" color="white" face="Helvetica"> wics-exec@cs.uoregon.edu </font></p>
+      .fa-youtube {
+        background: #bb0000;
+        color: white; 
+      }
+    </style>
 
-<p> <font size="10" color="grey" face="Helvetica"> About : </font></p>
-      <p> <font size="5" color="white" face="Helvetica"> ~ Contribute to the success of UO women in CS <br>
-~ Build a stronger sense of inclusion and community around UO <br>
-~ Increase participation of women in CS </font></p>
+    <link rel="icon"
+      href="img/wics.png" />
+  </head>
 
+  <body>
 
-<button type ="button" id="instagram" onclick="insta()" ><font size="25" color="grey" face="Helvetica"> Insta </font></button>
+    <header class="masthead text-center text-white">
+      <div class="masthead-content">
+        <div class="container">
+          <h2 class="masthead-subheading mb-0">Welcome to the WiCS site!</h2>
+        </div>
+      </div>
+    </header>
 
-<button type ="button" id="twitter" onclick="insta()" ><font size="25" color="grey" face="Helvetica"> Twitter </font></button>
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/wics.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4">Who are we and what are we about?</h2>
+              <p> We are the Women in Computer Science organization at the University of Oregon! Our goals are to </p>
+              <p> - Contribute to the success of UO women in CS </p>
+              <p> - Build a stronger sense of inclusion and community around UO </p>
+              <p> - Increase participation of women in CS </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<button type ="button" id="youtube" onclick="insta()" ><font size="25" color="grey" face="Helvetica"> Youtube </font></button>
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/meeting.JPG" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5">
+              <h2 class="display-4">Meetings</h2>
+              <p>Our meetings are on Thursdays at Espresso Roma on 13th Avenue from 6:30 - 7:30pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<script>
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/contact.JPG" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4">Contact Us!</h2>
+              <p> Follow us on social media and contact us!</p>
+              <a href="https://www.facebook.com/wicsuo" class="fa fa-facebook"></a>
+              <a href="https://www.youtube.com/user/WICSUO" class="fa fa-youtube"></a>
+              <a href="https://twitter.com/uowics" class="fa fa-twitter"></a>
+              <a href="https://www.instagram.com/wicsuo/?hl=en" class="fa fa-instagram"></a>
+              <a href="mailto:wics-exec@cs.uoregon.edu" class="fa fa-envelope"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Footer -->
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <p class="m-0 text-center text-white small">Copyright &copy; WiCS UO</p>
+      </div>
+      <!-- /.container -->
+    </footer>
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-function insta() {
-    window.open("https://www.instagram.com/wicsuo/?hl=en");
-}
+  </body>
 
-function twitter() {
-    window.open("https://twitter.com/uowics");
-}
-
-function youtube() {
-    window.open("https://www.youtube.com/user/WICSUO");
-}
-
-
-</script>
-
-
-  </div>
-</body>
+</html>
